@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body {}
+
+header {
+    position: absolute;
+    display: flex;
+    /* background-color: blueviolet; */
+}
+
+h1 {
+    padding: 10px 15px 10px;
+    width: 100%;
+}
+
+h3 {
+    width: 50%;
+    background-color: rgb(0, 255, 21);
+}
+
+#sect {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    width: 62%;
+    /* background-color: yellowgreen; */
+    float: left;
+}
+
+#sect table {
+    margin-left: 5px;
+    width: 80%;
+    /* background-color: #f19bd8; */
+}
+
+#sect table .tab-cabecalho {
+    background-color: yellow;
+}
+
+#sect table .tab-corpo {
+    /* background-color: rgb(117, 117, 64); */
+}
+
+#sect .ordenada {
+    margin-left: 30px;
+
+    /* background-color: antiquewhite; */
+}
+
+#sect .naoordenada {
+    margin-left: 30px;
+    /* background-color: rgb(104, 177, 123); */
+}
+
+#sect .login {
+
+    /* background-color: rgb(170, 170, 157); */
+}
+
+#sect .cadastro {
+
+    /* background-color: rgb(253, 253, 145); */
+}
+
+
+aside {
+    /* border-left: 3px solid #0c0c0c; */
+    display: flex;
+    width: 35%;
+    margin-right: 10px;
+    height: 45.6em;
+    float: right;
+    /* background-color: pink; */
+}
+
+aside .ferrari {
+    margin-top: 378px;
+    width: 80px;
+    display: flex;
+    position: relative;
+}
+
+aside .google {
+    display: flex;
+    position: absolute;
+}
+

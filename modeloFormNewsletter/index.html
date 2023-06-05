@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+
+</head>
+
+<body>
+  <main>
+    <section>
+      <div class="flex-header">
+        <h1>Stay updated!</h1>
+
+      </div>
+      <div class="subtitle">
+        <h2>Join 60,000+ product managers receiving monthly updates on:</h2>
+      </div><br><br>
+
+
+      <p> Product discovery and building what matters
+        Measuring to ensure updates are a success
+        And much more!
+      </p>
+    </section>
+
+    <!-- Sign-up form start -->
+
+  </main>
+  <br>
+  <aside class="sideform">
+    <h3>Email address
+      email@company.com</h3><br><br>
+    <hr>
+    <br>
+    <h4> Subscribe to monthly newsletter
+    </h4> <br>
+    <form>
+      <b>Your name:</b> <br><input type="text" placeholder="Type your name here" id="name"><br>
+      <br> <b>Your email:</b><br><input type="email" placeholder="Type your best e-mail here" id="email"><br>
+
+      <br><button type="submit" onclick="send()">Send</button>
+
+    </form><br>
+  </aside><br>
+
+  <footer style="background-color: black;"">
+    <div class=" attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/MickJr78">Dev Junior Barbosa</a>.
+    </div>
+  </footer>
+
+  <!-- Sign-up form end -->
+
+  <!-- SÓ UMA LAMBIDINHA NO JAVASCRIPT KKK -->
+
+  <!-- Success message start -->
+  <script>
+    function send() {
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+
+      if (name == "" | email == "") {
+        alert('Please fill out all fields!!!');
+
+      } else {
+
+        alert('Form sent successfully! Thanks for subscribing! A confirmation email has been sent to email@company.com.  Please open it and click the button inside to confirm your subscription. Dismiss message');
+      }
+    }
+  </script>
+
+  <!-- Success message end -->
+
+</body>
+
+</html>
